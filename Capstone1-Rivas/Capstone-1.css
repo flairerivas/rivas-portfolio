@@ -10,25 +10,19 @@
 	font-family: 'Edu QLD Beginner', cursive;
 }
 
-#personal-info {
+/*#personal-info {
 	background-image: url(./lpbg.png);
 	background-attachment: fixed;
 	display: inline-block;
 	position: relative;
 	margin-right: 1rem;
-}
+}*/
 
 #p-i-table {
 	text-align: center;
 	border-color: lavender;
 }
 
-#project {
-	text-align: center;
-	border-color: lavender;
-	background-color: beige	;
-	float: center;
-}
 
 #no-conntext {
 	border-image-width: ;
