@@ -19,12 +19,12 @@
 
 	<title>The Developer</title>
 </head>
-<body>
+<body id="background">
 
 	<!-- NAVBAR SECTION START -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
 	  <div class="container-fluid">
-	    <a class="navbar-brand text-white" href="#landing-page">The Developer</a>
+	    <a class="navbar-brand text-white" href="#landing-page"><strong>The 'Developer'</strong></a>
 	    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
@@ -32,7 +32,7 @@
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-me-1">
 	        <li class="nav-item">
-	          <a class="nav-link active text-white" aria-current="landing-page" href="#landing-page">Introduction</a>
+	          <a class="nav-link active text-white" aria-current="landing-page" href="#contact">Contacts</a>
 	        </li>
 
 	        <li class="nav-item">
@@ -49,7 +49,7 @@
 	<!-- NAVBAR SECTION END -->
 
 	<div class="container-fluid text-center">
-		<div class="row">
+		<div class="row background">
 
 			<!-- SIDE NAVBAR START -->
 			<div class="accordion col-xl-2 d-none p-0 d-xl-block mt-5" id="accordionExample">
@@ -108,7 +108,7 @@
 
 			<!-- LANDING PAGE START-->
 			<div class="col-xl-10 d-xl-block p-0">
-				<div class="container-fluid bg-light text-dark min-vh-100 p-3 p-md-5" id="landing-page">
+				<div class="container-fluid  background text-dark min-vh-100 p-3 p-md-5 mt-5" id="landing-page">
 					<img src="./landingpage.jpg" width="250" class="rounded-circle mt-5 mt-md-0">
 					<h1>Flairelyn Rivas</h1>
 					<h3>The 'Developer'</h3>
@@ -170,58 +170,49 @@
 			</div>
 
 			<!-- PERSONAL INFO START -->
-
-			<div class="mt-5 mb-5 col-sm-12" id="personal-info">
+		<div class="container-fluid text-center">
+			<div class="row mt-5 mb-5 col-sm-12 p-me-1" id="personal-info">
 				<h2>'Dev's Personal Information</h2>
 				<div>
-					<table class="table table-p-i-table">
+					<table class="table">
 						<thead>
 							<tr>
-								<th>Fullname</th>
-								<th>Nickname</th>
-								<th>Age</th>
-								<th>Birthday</th>
-								<th>Contact</th>
-								<th>Address</th>
-								<th>Educational Attainment</th>
-								<th>Work Experience</th>
+								<th>Question</th>
+								<th>Answer</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Flairelyn S. Rivas</td>
-								<td>Flaire</td>
+								<td>What's Your Name?</td>
+								<td>Flairelyn Rivas</td>
+							</tr>
+							<tr>
+								<td>Any Nickname?</td>
+								<td>Just call me <strong>Flaire, Pler, Fay(fey)</strong> or whatever you want</td>
+							</tr>
+							<tr>
+								<td>How old are you?</td>
 								<td>20 something</td>
+							</tr>
+							<tr>
+								<td>When is your birth date?</td>
 								<td>January 3, 199X</td>
-								<td>09631639XXX</td>
+							</tr>
+							<tr>
+								<td>Contact Number?</td>
+								<td>+63 963 163 9XXX</td>
+							</tr>
+							<tr>
+								<td>Where do you live?</td>
 								<td>Rodriguez, Rizal</td>
-								<td>BS Information Technology - Colegio de Sta. Teresa de Avila</td>
-								<td>Accenture PH - ASE (Associate Software Engineer</td>
 							</tr>
-
 							<tr>
-								<td></td>
-								<td>Flaire</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td>Commonwealth, Quezon City</td>
-								<td></td>
-								<td>TeleTech - CSR (Customer Service Representative)</td>
-							</tr>
-
-							<tr>
-								<td></td>
-								<td>Fay (fey)</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>What is your Educational Attainment?</td>
+								<td>College Graduate: BS Information Technology</td>
 							</tr>
 						</tbody>
 					</table>
+					
 					<div>
 						<h2>'Dev's Skills</h2>
 						<div class="bg-secondary p-2 d-flex flex-row">
@@ -232,17 +223,19 @@
 					</div>
 				</div>
 			</div>
+		</div>
 			<!-- PERSONAL INFO END -->
 
 			<!-- HOBBIES START -->
-			<div class="bg-secondary m-3 p-3 col-sm-12" id="hobbies">
+
+			<div class="bg-secondary bg-opacity-25 m-1 p-3 col-sm-12" id="hobbies">
 				<h2>Here is the 'Dev's Hobbies</h2>
 				<img src="./hobby.png" width="700px" class=" p-2">
 			</div>
 			<!-- HOBBIES END -->
 
 			<!-- RANDOM THOUGHTS -->
-			<div class="bg-secondary m-3 p-3 col-sm-12" id="thoughts">
+			<div class="bg-secondary bg-opacity-25 m-1 p-3 col-sm-12" id="thoughts">
 				<h2>The 'Dev's Random Thoughts</h2>
 				<img src="./rt.png" width="700px" class="p-2">
 			</div>
@@ -252,7 +245,7 @@
 			<div class="mb-5 col-sm-12 "  id="project">	
 				<div class="row d-none d-md-block m-3">
 					<!-- Capstone 1 START-->
-					<h2>FONTEND ACTIVITIES</h2>
+					<h2>FRONTEND ACTIVITIES</h2>
 					<div class="offset-xl-4 col-xl-6">
 						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 						  <div class="carousel-indicators">
@@ -302,7 +295,7 @@
 			<!-- PROJECTS END -->
 
 			<!-- Contact Section Start -->
-				<div class="bg-secondary bg-gradient text-dark min-vh-50 p-3  mb-5 col-sm-12" id="contact">
+				<div class="bg-secondary bg-opacity-25 text-dark min-vh-50 p-3  mb-5 col-sm-12" id="contact">
 					<h2 class="text-white">Contact Me</h2>
 					<form class="bg-light  justify-content-center p-md-3 offset-md-2 col-md-8 mx-auto">
 						<div class="mb-3 p-2">

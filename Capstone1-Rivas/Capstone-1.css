@@ -12,6 +12,9 @@
 
 #personal-info {
 	background-color: beige	;
+	display: inline-block;
+	position: relative;
+	margin-right: 1rem;
 }
 
 #p-i-table {
@@ -35,3 +38,10 @@
 	background-color: mediumpurple;
 }
 
+#background {
+	background-image: url(./backg.png);
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
