@@ -1,0 +1,46 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.font-style {
+	font-family: 'Edu QLD Beginner', cursive;
+}
+
+/*#personal-info {
+	background-image: url(./lpbg.png);
+	background-attachment: fixed;
+	display: inline-block;
+	position: relative;
+	margin-right: 1rem;
+}*/
+
+#p-i-table {
+	text-align: center;
+	border-color: lavender;
+}
+
+
+#no-conntext {
+	border-image-width: ;
+}
+
+#contact {
+
+	background-color: mediumpurple;
+}
+
+#background {
+	background-image: url(./images/backg.png);
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#bg {
+	
+}
